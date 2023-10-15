@@ -1,0 +1,29 @@
+
+
+.video{
+    position: relative;
+    display: flex;
+    gap: 10px;
+
+}
+.helo{
+    color: blue;
+    font-variant: small-caps;
+}
+
+.dark{
+    background-color:  #333;
+    color: #fff;
+}
+
+.lightmode{
+    background-color: #ccc;
+
+}
+
+.parent .modechanger{
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    cursor: pointer;
+}
